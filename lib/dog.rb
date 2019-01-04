@@ -11,7 +11,7 @@ class Dog
   
   def self.all
     binding.pry
-  @@all.each {|name| puts "#{name}"} 
+  @@all.each {|dog| puts "#{name}"} 
   end
 
   def self.clear_all
